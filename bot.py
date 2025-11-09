@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 from config import BOT_TOKEN
-from services.weather_api import get_weather
+from services.weather import get_weather
 from services.currency import convert_currency
 
 bot = telebot.TeleBot(BOT_TOKEN)
